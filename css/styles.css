@@ -1,0 +1,96 @@
+
+/* Nav Bar */
+nav {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.custom-nav-padding {
+    padding: 10px
+}
+
+.custom-item-padding {
+    padding-right: 15px;
+
+}
+
+.nav-item {
+    margin-right: 30px;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+    margin-left: 30px
+}
+
+/* title page */
+.title-page {
+    background: url(https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?w=360) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.projects-button {
+    margin-top: 40px;
+    padding: 10px 70px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem
+    
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem
+}
+
+.button {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1.3rem
+    
+    
+}
+
+/*About me*/
+.about-me {
+    padding: 50px 40px 40px;
+    background-color: royalblue;
+    color: whitesmoke
+}
+.divide-line {
+    padding-left: 600px;
+    padding-right: 600px;
+}
+
+hr {
+    background-color: whitesmoke;
+}
+.about-text {
+    text-align: center;
+    padding: 30px;
+}
+/*Projects*/
+.projects {
+    padding: 50px 40px 40px;
+    background: url(https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?w=360) no-repeat center center;
+    background-size: cover;
+}
+
+/*Contacts*/
+.contacts {
+    text-align: center;
+    padding: 50px 40px 40px;
+    background-color: royalblue;
+    color: whitesmoke
+    
+}
+
+i {
+    padding: 60px 15px 30px;
+}
