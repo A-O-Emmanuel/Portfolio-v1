@@ -88,10 +88,24 @@ hr {
 }
 /*Projects*/
 .projects {
-    padding: 50px 40px 40px;
+    padding: 100px 40px;
     background: url(https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?w=360) no-repeat center center;
     background-size: cover;
 }
+ .project-image {
+    height:400px;
+    width: 400px;
+    border-color: royalblue;
+    padding-top: 30px;
+ }
+
+ .project-text {
+    padding-top: 30px;
+ }
+
+ .project-button {
+    margin: 10px;
+ }
 
 /*Contacts*/
 .contacts {
