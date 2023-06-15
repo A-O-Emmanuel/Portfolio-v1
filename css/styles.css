@@ -1,4 +1,7 @@
-
+body {
+    margin: 0px;
+    padding: 0px;
+}
 /* Nav Bar */
 nav {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -12,6 +15,7 @@ nav {
 
 }
 
+
 .nav-item {
     margin-right: 30px;
     font-size: 1.3rem;
@@ -23,7 +27,7 @@ nav {
 }
 
 /* title page */
-.title-page {
+#Home {
     background: url(https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?w=360) no-repeat center center;
     background-size: cover;
     text-align: center;
@@ -63,13 +67,13 @@ p {
     background-color: royalblue;
     color: whitesmoke
 }
-.divide-line {
-    padding-left: 600px;
-    padding-right: 600px;
-}
+
 
 hr {
     background-color: whitesmoke;
+    margin-left: 600px;
+    margin-right: 600px;
+    height: 1.5px;
 }
 .about-text {
     text-align: center;
