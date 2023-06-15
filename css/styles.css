@@ -36,6 +36,13 @@ nav {
     font-family: 'Montserrat', sans-serif;
 }
 
+.cover-image {
+    height:200px;
+    width: 200px;
+    border-color: royalblue;
+    border-radius: 100px;
+    
+}
 .projects-button {
     margin-top: 40px;
     padding: 10px 70px;
