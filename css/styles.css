@@ -70,7 +70,7 @@ p {
 
 /*About me*/
 .about-me {
-    padding: 50px 40px 40px;
+    padding: 85px 40px;
     background-color: royalblue;
     color: whitesmoke
 }
@@ -88,7 +88,7 @@ hr {
 }
 /*Projects*/
 .projects {
-    padding: 100px 40px;
+    padding: 85px 40px;
     background: url(https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?w=360) no-repeat center center;
     background-size: cover;
 }
@@ -110,7 +110,7 @@ hr {
 /*Contacts*/
 .contacts {
     text-align: center;
-    padding: 50px 40px 40px;
+    padding: 50px 40px;
     background-color: royalblue;
     color: whitesmoke
     
