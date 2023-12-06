@@ -1,121 +1,27 @@
 body {
-    margin: 0px;
-    padding: 0px;
-}
-/* Nav Bar */
-nav {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.custom-nav-padding {
-    padding: 10px
-}
-
-.custom-item-padding {
-    padding-right: 15px;
-
+    text-align: center
 }
 
 
-.nav-item {
-    margin-right: 30px;
-    font-size: 1.3rem;
-    font-family: 'Montserrat', sans-serif;
-}
+/*COVER PAGE*/
 
-.navbar-brand {
-    margin-left: 30px
-}
-
-/* title page */
 #Home {
-    background: url(https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?w=360) no-repeat center center;
+
+    background-image: url("https://img.freepik.com/free-photo/3d-render-low-poly-design-abstract-blur-background_1048-12681.jpg?size=626&ext=jpg&ga=GA1.1.619501260.1701902679&semt=ais");
     background-size: cover;
-    text-align: center;
-    padding-top: 250px;
-    padding-bottom: 200px;
-    font-family: 'Montserrat', sans-serif;
-}
+    background-repeat: no-repeat;
+    height: 35vh;
+    width: 100vw;
+    padding: 3rem;
 
-.cover-image {
-    height:200px;
-    width: 200px;
-    border-color: royalblue;
-    border-radius: 100px;
-    
-}
-.projects-button {
-    margin-top: 40px;
-    padding: 10px 70px;
-    
-}
-
-h1 {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem
-    
-}
-
-p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.3rem
-}
-
-.button {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    font-size: 1.3rem
-    
-    
-}
-
-/*About me*/
-.about-me {
-    padding: 85px 40px;
-    background-color: royalblue;
-    color: whitesmoke
 }
 
 
-hr {
-    background-color: whitesmoke;
-    margin-left: 600px;
-    margin-right: 600px;
-    height: 1.5px;
-}
-.about-text {
-    text-align: center;
-    padding: 30px;
-}
-/*Projects*/
-.projects {
-    padding: 85px 40px;
-    background: url(https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?w=360) no-repeat center center;
-    background-size: cover;
-}
- .project-image {
-    height:400px;
-    width: 400px;
-    border-color: royalblue;
-    padding-top: 30px;
- }
 
- .project-text {
-    padding-top: 30px;
- }
+/*PROJECT SECTION*/
+#Projects {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 
- .project-button {
-    margin: 10px;
- }
-
-/*Contacts*/
-.contacts {
-    text-align: center;
-    padding: 50px 40px;
-    background-color: royalblue;
-    color: whitesmoke
-    
 }
 
-i {
-    padding: 60px 15px 30px;
-}
