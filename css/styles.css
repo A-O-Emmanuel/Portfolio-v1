@@ -2,26 +2,39 @@ body {
     text-align: center
 }
 
+/*////////////////MOBILE DESIGNE///////////////////*/
 
 /*COVER PAGE*/
-
 #Home {
-
-    background-image: url("https://img.freepik.com/free-photo/3d-render-low-poly-design-abstract-blur-background_1048-12681.jpg?size=626&ext=jpg&ga=GA1.1.619501260.1701902679&semt=ais");
+    background-image: url("https://images.unsplash.com/photo-1542435503-956c469947f6?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    height: 35vh;
-    width: 100vw;
-    padding: 3rem;
-
+    background-origin: border-box;
+    height: 90vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
+/*ABOUT PAGE*/
+#About {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
 
-
+}
 /*PROJECT SECTION*/
 #Projects {
     padding-top: 5rem;
     padding-bottom: 5rem;
+    
 
 }
+.project-text {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+/*///////////DESKTOP VIEW//////////////////*/
+
 
