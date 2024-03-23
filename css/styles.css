@@ -2,21 +2,53 @@ body {
     text-align: center;
 }
 
-/*////////////////MOBILE DESIGNE///////////////////*/
+/*////////////////Desktop View///////////////////*/
+ /* Nav Bar*/
+.custom-item-padding {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
+.center-items {
+    position: relative;
+    align-items: center;
+
+}
+
+.custom-nav-link {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 24px;
+}
 /*COVER PAGE*/
 #Home {
-    background-image: url("https://images.unsplash.com/photo-1542435503-956c469947f6?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("/css/images/minh-pham-IisDPFNUS4k-unsplash.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-origin: border-box;
-    height: 90vh;
+    height: 85vh;
     display:flex;
     align-items: center;
     justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
+.home-text {
+    font-size: 48px;
+}
+
+.home-text-sub {
+    font-size: 24px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.home-text-box {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 /*ABOUT PAGE*/
 #About {
     padding-left: 2.5rem;
@@ -35,6 +67,6 @@ body {
     padding-right: 2.5rem;
 }
 
-/*///////////DESKTOP VIEW//////////////////*/
+/*///////////Mobile View//////////////////*/
 
 
