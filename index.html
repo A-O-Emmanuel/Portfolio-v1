@@ -37,6 +37,9 @@
                             <a class="nav-link custom-nav-link" href="#About">About</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link custom-nav-link" href="#Skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link custom-nav-link" href="#Projects">Projects</a>
                         </li>
                         <li class="nav-item">
@@ -55,7 +58,7 @@
             <div class="home-text-box">
              <h1 class="home-text">HI!, I’m Obi Emmanuel;</h1>
             <p class="home-text-sub"> a full-stack web developer specializing in crafting seamless and engaging digital experiences that exceed expectations</p>
-            <a class=" btn btn-primary btn-lg text--center" href="#Projects">Projects</a>
+            <h6><a class=" btn btn-primary btn-lg text--center btn-custom" href="#Projects">Projects</a></h6>
             </div>
 
     </section>
@@ -64,21 +67,64 @@
     <!--About-->
     <section id="About">
             <h1>About Me</h1>
-            <div class="divide--line">
-                <hr >
+            <div class="divide-line--about">
+                <hr />
             </div>
+            <div class="container text-center">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2">
+                  <div class="col">
+                    <img src="https://simg.nicepng.com/png/small/809-8097666_user-login-man-person-comments-icon.png" class="cover--image">
+                    <p>Hi!, I'm Obi Emmanuel, Nice to meet you!</p>
+                </div>
         
-            <img src="https://simg.nicepng.com/png/small/809-8097666_user-login-man-person-comments-icon.png" class="cover--image">
-            <p>Hi!, I'm Obi Emmanuel, Nice to meet you!</p>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
-                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            
+                  <div class="col about-text">
+                                  
+                <p>Hi there, I'm Obi Emmanuel, a full-stack web developer driven by a deep passion for crafting digital solutions that make a difference. 
+                    With every project, I aim not just to meet expectations, but to exceed them, pushing boundaries and creating innovative web products. 
+                    My commitment to self-improvement means I'm always learning and staying ahead of the curve in this ever-evolving industry. 
+                    Let me bring your vision to life with my expertise, creativity, and dedication to excellence.
+                </p>
+               
+                
+                  </div>
+                </div>
+              </div>
+    </section>
+<!--Skills-->
+        <section id="Skills">
+            <h1>My Skills</h1>
+            <div class="divide-line">
+                <hr />
+            </div>
+            <div class="container text-center">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2">
+                  <div class="col ">
+                    <div class="col-custom col-custom--left">
+                   <h3>Front-end</h3>
+                   <h6>HTML</h6>
+                   <h6>CSS</h6>
+                   <h6>SCSS</h6>
+                   <h6>BOOTSTRAP</h6>
+                   <h6>JAVASCRIPT</h6>
+                   <h6>TYPESCRIPT</h6>
+                   <h6>REACT JS</h6>
+                   </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="col-custom col-custom--right">                    
+                    <h3>Back-end</h3>
+                   <h6>NODE JS</h6>
+                   <h6>EXPRESS JS</h6>
+                   <H6>EJS</H6>
+                   <h6>MONGO DB</h6>
+                   <h6>MONGOOSE</h6>
+                   <h6>MY SQL</h6>
+                   <h6>SEQUELIZE</h6>
+                   </div>
+                  </div>
+                </div>
+              </div>
     </section>
 
     <!--Projects page-->
@@ -86,7 +132,7 @@
         <div class="projects">
             <h1>Projects</h1>
             <div class="divide-line">
-                <hr >
+                <hr />
             </div>
             
             <div class="container text-center">
@@ -115,21 +161,58 @@
     </section>
 
 
-    <!--Footer-->
-    <footer id="Contact">
-        <div class="contacts">
+    <!--Contact-->
+    <!-- <section id="Contact">
+        <div class="contact">
             <h1>Contact</h1>
             <div class="divide-line">
-                <hr >
+                <hr />
             </div>
+            <form action="/" method="post">
+                <label for="email">Email</label>
+                <input type="email" placeholder="enter your email">
+                <br />
+                <br />
+                <textarea row="50" col="50"></textarea>
+                <br />
+                <br />
+                <button type="submit">Send</button>
+            </form>
+        </div>        
+    </section> -->
+
+
+
+    <!--footer-->
+    <section id="footer">
+        <div>
+            <ul class=" custom-item-padding">
+                <li class="nav-item">
+                    <a class="nav-link active custom-nav-link" href="#Home">Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link custom-nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link custom-nav-link" href="#Skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link custom-nav-link" href="#Projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link custom-nav-link" href="#Contact">Contact</a>
+                </li>
+            </ul>
 
             <i class="social-icon fa-brands fa-facebook-f"></i> 
             <i class="social-icon fa-brands fa-twitter"></i>
             <i class="social-icon fa-brands fa-instagram"></i> 
-            <i class="social-icon fa-solid fa-envelope"></i>
+            <a href=" "></a><i class="social-icon fa-solid fa-envelope"></i></a>
             <p>© Copyright Obi Emmanuel</p>
-        </div>        
-    </footer>
+        </div>
+
+       
+    </section>
 
     <!--Boostrap javascript cdn-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
