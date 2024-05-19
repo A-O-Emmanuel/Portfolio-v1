@@ -197,7 +197,7 @@ body {
     padding-right: 2rem;
 }
 
-/*ABOUT SECTION DESKTOP*/
+/*PROJECT SECTION DESKTOP*/
 @media(min-width: 40rem) {
     .divide-line--project {
         padding-left: 40rem;
